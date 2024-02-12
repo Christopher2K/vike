@@ -7,9 +7,6 @@ import { onHydrationEnd, onPageTransitionStart, onPageTransitionEnd } from './on
 const config = {
   clientRouting: true,
   prefetchStaticAssets: 'viewport',
-  onHydrationEnd,
-  onPageTransitionStart,
-  onPageTransitionEnd,
   // https://vike.dev/meta
   meta: {
     // Define new setting 'title'
